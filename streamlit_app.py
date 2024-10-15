@@ -3,6 +3,7 @@ import pandas as pd
 import math
 from pathlib import Path
 
+@st.cache_data
 def get_ukc_data():
     """Grab ukc data from a xlsx file.
 
